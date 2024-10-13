@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Markerless AR 2D Drawing</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@ar-js-org/ar.js"></script>
+</head>
+<body>
+  <a-scene embedded arjs>
+    <a-camera></a-camera>
+
+    <!-- Your image projected onto the detected surface -->
+    <a-image src="emines.png" position="0 1.5 -3" width="4" height="3" rotation="0 0 0"></a-image>
+  </a-scene>
+</body>
+</html>
